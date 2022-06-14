@@ -1,0 +1,25 @@
+{
+    "data":{
+        "projects":[
+            {
+                "id":0,
+                "project_name":"wheel of success",
+                "description":"A word guessing game",
+                "technologies":["HTML","CSS","JavaScript","Git"],
+                "live_link": "https://shola-treehouse.github.io/wheel-of-success/",
+                "github_link":"https://github.com/shola-treehouse/wheel-of-success.git",
+                "image_urls":["images/0head.png","images/0.png"]
+            },
+            {
+                "id":1,
+                "project_name":"Employee Dictionary",
+                "description":"An app that displays employee information",
+                "technologies":["HTML","CSS","JavaScript","Git"],
+                "live_link": "https://shola-treehouse.github.io/Data-Pagination/",
+                "github_link":"https://github.com/shola-treehouse/Data-Pagination.git",
+                "image_urls":["images/1head.png","images/1.png"]
+            }
+        ]
+
+    }
+}
