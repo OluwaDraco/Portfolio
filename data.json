@@ -11,7 +11,6 @@
                 "image_urls":["images/0head.png","images/0.png"]
             },
             {
-                "id":1,
                 "project_name":"Employee Dictionary",
                 "description":"An app that displays employee information",
                 "technologies":["HTML","CSS","JavaScript","Git"],
