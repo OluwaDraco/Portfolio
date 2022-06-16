@@ -14,8 +14,10 @@ app.use('/static',express.static('public'));
 app.set('view engine', 'pug');
 const mainRoutes = require('./routes');
 const projectRoutes = require('./routes/projects')
+const errorHandler = require('./routes/errorHandlers')
 
 app.use(mainRoutes)
+
 app.use('/project',projectRoutes)
 
 // app.get('/',(req,res)=>{
@@ -35,6 +37,8 @@ app.get('/about',(req,res)=>{
 //     res.render('index',{project})
 // })
 
+
+app.use(errorHandler)
 
 app.listen(3000, ()=>{
     console.log("this server is running on localhost:3000")

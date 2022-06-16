@@ -8,9 +8,10 @@
                 "technologies":["HTML","CSS","JavaScript","Git"],
                 "live_link": "https://shola-treehouse.github.io/wheel-of-success/",
                 "github_link":"https://github.com/shola-treehouse/wheel-of-success.git",
-                "image_urls":["images/0head.png","images/0.png"]
+                "image_urls":["/img/0head.png","/img/0.png"]
             },
             {
+                "id":1,
                 "project_name":"Employee Dictionary",
                 "description":"An app that displays employee information",
                 "technologies":["HTML","CSS","JavaScript","Git"],
