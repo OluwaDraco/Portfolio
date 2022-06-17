@@ -5,20 +5,19 @@ block content
   article.portfolio-intro
 
     //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 Heading
+    h1 Welcome, this is Shotown!
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    p Welcome to Shotown! Here is a vault of all my projects provided with screenshots and live link to try them out.
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
-      each project in data
-
+      each project in projects
         .cell 
-          a(href=``)
-            img.thumbnail(src='https://placehold.it/550x550', alt='')
-            h5 #{data.project_name}
+          a(href=`/project/${project.id}`)
+            img.thumbnail(src=`/static/${project.image_urls[0]}`, alt='')
+            h5 #{project.project_name}
 
 
       //- Use the Pug `each` iterator to loop over the projects in your data file  

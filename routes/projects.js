@@ -9,7 +9,7 @@ router.get("/:id", (req, res) => {
     const projectDescription = projects[id].description;
     const projectLiveLink = projects[id].live_link;
     const projectGit = projects[id].github_link;
-    const projectThumbmil = projects[id].image_urls;
+    const projectThumbnail = projects[id].image_urls;
     const projectTechnologies = projects[id].technologies;
     let templateData = {
         id,
@@ -17,7 +17,7 @@ router.get("/:id", (req, res) => {
         projectDescription,
         projectLiveLink,
         projectGit,
-        projectThumbmil,
+        projectThumbnail,
         projectTechnologies,
     };
     res.render("project", templateData);

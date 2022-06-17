@@ -8,7 +8,7 @@
                 "technologies":["HTML","CSS","JavaScript","Git"],
                 "live_link": "https://shola-treehouse.github.io/wheel-of-success/",
                 "github_link":"https://github.com/shola-treehouse/wheel-of-success.git",
-                "image_urls":["/img/0head.png","/img/0.png"]
+                "image_urls":["/img/0head.png","/img/ss1.png","/img/ss2.png","/img/ss3.png"]
             },
             {
                 "id":1,
@@ -17,7 +17,7 @@
                 "technologies":["HTML","CSS","JavaScript","Git"],
                 "live_link": "https://shola-treehouse.github.io/Data-Pagination/",
                 "github_link":"https://github.com/shola-treehouse/Data-Pagination.git",
-                "image_urls":["images/1head.png","images/1.png"]
+                "image_urls":["/img/1head.png","/img/ss4.png","/img/ss5.png"]
             }
         ]
 
