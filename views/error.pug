@@ -1,0 +1,12 @@
+extends layout.pug 
+
+block content 
+
+    h1= `Sever-error`
+    h2=`Error Code: ${err.status}`
+    p=`Sorry, this is what went wrong: ${err.message}`
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back

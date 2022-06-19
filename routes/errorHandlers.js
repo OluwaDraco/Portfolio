@@ -2,16 +2,17 @@ const express = require("express");
 const router = express.Router();
 
 router.use((req,res,next)=>{
-    const err = new Error("not found")
-    err.status = 400;
-    next(err)
+    res.status(400).render('notfound');
 })
 
 router.use((err,req,res,next)=>{
-    res.locals.err = err;
-    res.locals.message = err.message
-    res.status(err.status);
-    res.send(err.message);
+    if(err.status === 404){
+        res.status(404).render('notfound',{err})
+    }
+    else{
+        err.message = err.message || "Oh my, seems there was a problem";
+        res.status(err || 500).render('error',{err})
+    }
 
 })
 

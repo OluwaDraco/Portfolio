@@ -362,3 +362,12 @@ nav a span {
     max-width: 1200px;
   }
 }
+
+/* Additional styles */
+.sidebar a:hover{
+  color: rgb(16, 235, 255);
+}
+
+.thumbnail:hover{
+  transform: scale(1.05) rotate(5deg)
+}
