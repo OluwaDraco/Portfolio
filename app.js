@@ -1,7 +1,5 @@
 const express = require("express");
-const cookieParser =require('cookie-parser');
-const {data} = require("../portfolio/data.json");
-const {projects} = data.projects;
+
 
 
 const app = express();
