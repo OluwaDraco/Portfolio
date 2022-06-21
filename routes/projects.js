@@ -3,7 +3,7 @@ const data = require("../data.json").data;
 const projects = data.projects;
 const router = express.Router();
 
-router.get("/:id", (req, res) => {
+router.get("/:id", (req, res,next) => {
     const { id } = req.params;
     const projectName = projects[id].project_name;
     const projectDescription = projects[id].description;
@@ -22,4 +22,9 @@ router.get("/:id", (req, res) => {
     };
     res.render("project", templateData);
 });
+
+router.use((err,req,res,next)=>{
+    res.status(404).render("notfound")
+});
+
 module.exports = router;

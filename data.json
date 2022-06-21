@@ -18,6 +18,15 @@
                 "live_link": "https://shola-treehouse.github.io/Data-Pagination/",
                 "github_link":"https://github.com/shola-treehouse/Data-Pagination.git",
                 "image_urls":["/img/1head.png","/img/ss4.png","/img/ss5.png"]
+            },
+            {
+            "id":2,
+                "project_name":"Random Quote Generator",
+                "description":"An app that randomly display inspirational quote ",
+                "technologies":["HTML","CSS","JavaScript","Git"],
+                "live_link": "https://shola-treehouse.github.io/-random-quote-generator/",
+                "github_link":"https://github.com/shola-treehouse/-random-quote-generator.git",
+                "image_urls":["/img/head2.png","/img/ss6.png","/img/ss7.png"]
             }
         ]
 

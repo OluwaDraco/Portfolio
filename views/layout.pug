@@ -6,6 +6,10 @@ html(lang="en" dir="ltr")
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel='preconnect' href='https://fonts.googleapis.com')
+    link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap' rel='stylesheet')
+
     link(rel='stylesheet', href='/static/css/normalize.css')
     link(rel='stylesheet', href='/static/css/styles.css')
 
@@ -17,13 +21,10 @@ html(lang="en" dir="ltr")
           img.thumbnail(src='/static/img/profilepic.JPG', alt='')
         .dev-intro-box
 
-          //- Replace with your name
           h5 Olushola I Oludipe
 
-          //- Replace with description of who you are, what you do, and why you are so awesome
-          p Description
+          p A full-stack developer with urge to learn and build and if given the chance I'll put my all.
 
-          //- Add path from your '/about' route handler to the href below
           a(href='/about') Learn More &rarr;
 
     .wrapper
@@ -31,7 +32,6 @@ html(lang="en" dir="ltr")
         .header-info-box
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
 
-          //- Replace with your name — this is for the mobile layout
           span Olushola Oludipe
 
       block content
