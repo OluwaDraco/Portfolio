@@ -24,7 +24,11 @@ router.get("/:id", (req, res,next) => {
 });
 
 router.use((err,req,res,next)=>{
+    err.status =404
+    err.message = "Page doesn't exist!"
     res.status(404).render("notfound")
+    console.log(err.status,err.message)
+    
 });
 
 module.exports = router;
