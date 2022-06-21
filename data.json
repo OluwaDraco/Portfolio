@@ -27,7 +27,25 @@
                 "live_link": "https://shola-treehouse.github.io/-random-quote-generator/",
                 "github_link":"https://github.com/shola-treehouse/-random-quote-generator.git",
                 "image_urls":["/img/head2.png","/img/ss6.png","/img/ss7.png"]
-            }
+            },
+            {
+                "id":3,
+                    "project_name":"Personal page 1.0",
+                    "description":"My very first webapp ",
+                    "technologies":["HTML","CSS","Git"],
+                    "live_link": "https://shola-treehouse.github.io/personalPage/contact.html",
+                    "github_link":"https://github.com/shola-treehouse/personalPage.git",
+                    "image_urls":["/img/3head.png","/img/ss8.png","/img/ss9.png"]
+                },
+                {
+                    "id":4,
+                        "project_name":"NASA Web API",
+                        "description":"Shows list of all the people in space ",
+                        "technologies":["HTML","CSS","Javascript","Git"],
+                        "live_link": "https://shola-treehouse.github.io/space-api/",
+                        "github_link":"https://github.com/shola-treehouse/space-api.git",
+                        "image_urls":["/img/head5.png","/img/ss10.png","/img/ss11.png"]
+                    }
         ]
 
     }
